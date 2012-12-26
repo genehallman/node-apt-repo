@@ -1,0 +1,3 @@
+exports.port = '3333';
+exports.repos = {'ubuntu': {'lucid': {'main': {'binary':'*', 's3bucket': 's3://my-packages'} } } };
+exports.s3creds = {'access': '', 'secret': ''}; 

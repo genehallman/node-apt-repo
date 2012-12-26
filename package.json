@@ -2,14 +2,19 @@
   "name": "apt-repo",
   "description": "An apt repo that uses S3 as a backend and has basic token security",
   "version": "0.0.1",
-	"author": "Gene Hallman <gene@livefyre.com>",
+  "author": "Gene Hallman <gene@livefyre.com>",
+  
   "repository": {
     "type": "git",
     "url": "git://github.com/genehallman/node-apt-repo.git"
   },
+  "scripts": {
+    "start": "node ./lib/apt-repo"
+  },
   "dependencies": {
     "tar": ">=0.1.14",
-    "knox": ">=0.4.5"
+    "knox": ">=0.4.5",
+    "express": "*"
   },
   "engines": {
     "node": ">=0.6.0"
