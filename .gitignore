@@ -17,3 +17,5 @@ config.js
 node_modules/
 
 .project
+
+tmp/*
